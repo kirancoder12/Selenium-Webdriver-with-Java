@@ -15,6 +15,6 @@ public class SeleniumIntroduction {
         driver.get("https://Salesforce.com");
         System.out.println(driver.getTitle());
         System.out.println(driver.getCurrentUrl());
-       //driver.close();
+       driver.close();
     }
 }
